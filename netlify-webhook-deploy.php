@@ -81,7 +81,7 @@ class deployWebhook {
     }
 
     public function run_the_mighty_javascript() {
-        echo get_option('webhook_address');
+        // echo get_option('webhook_address');
         ?>
         <script type="text/javascript" >
         jQuery(document).ready(function($) {
