@@ -44,7 +44,7 @@ class deployWebhook {
     }
 
     public function plugin_settings_page_content() {?>
-    	<div class="wrap">
+    	<div class="wrap netlify-webhook">
     		<h2>Netlify Webhook Deploy</h2>
             <hr><?php
             if ( isset( $_GET['settings-updated'] ) && $_GET['settings-updated'] ){
@@ -95,7 +95,7 @@ class deployWebhook {
         jQuery(document).ready(function($) {
             console.log('jQuery loaded');
             var _this = this;
-            $( "td > input" ).css( "width", "100%");
+            $( ".netlify-webhook td > input" ).css( "width", "100%");
     
             var webhook_url = '<?php echo(get_option('webhook_address')) ?>';
             var netlify_user_agent = '<?php echo(get_option('netlify_user_agent')) ?>';
