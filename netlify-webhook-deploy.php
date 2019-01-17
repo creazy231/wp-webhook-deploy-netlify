@@ -77,14 +77,6 @@ class deployWebhook {
                 <p id="deploy_ssl_url">Deploy URL: </p>
             </div>
 
-            <hr>
-
-            <footer>
-                <h3>Extra Info</h3>
-                <p><a href="https://github.com.au">Plugin Docs</a></p>
-                <p><a href="https://github.com.au">Project Github</a></p>
-            </footer>
-
     	</div> <?php
     }
 
